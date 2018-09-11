@@ -12,7 +12,7 @@ import AppConst from '../../const/AppConst';
 
 import BaseComponent from '../../base/BaseComponent';
 
-export default class Switch extends BaseComponent {
+export default class BBSwitch extends BaseComponent {
 
     getSize = AppConst.getSize
     path = new Animated.Value(0)
