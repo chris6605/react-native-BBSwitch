@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import { StyleProp, ViewStyle } from 'react-native';
 
-interface SwitchProps {
+interface BBSwitchProps {
 
     /**
      * switch宽度
@@ -45,6 +45,6 @@ interface SwitchProps {
     onValueChange?: (value: boolean) => void,
 }
 
-export default class Switch extends Component<SwitchProps, {}> {
+export default class BBSwitch extends Component<BBSwitchProps, {}> {
 
 }
